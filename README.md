@@ -51,4 +51,4 @@ tar xfz prometheus-*.linux-armv7.tar.gz
 ```
 
 # License
-[Apache 2.0](https://www.tldrlegal.com/l/apache2), please see the file [LICENSE](../blob/master/LICENSE).
+[Apache 2.0](https://www.tldrlegal.com/l/apache2), please see the file [LICENSE](../master/LICENSE).
