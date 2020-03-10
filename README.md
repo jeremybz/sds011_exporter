@@ -43,7 +43,7 @@ Usage of ./sds011_exporter:
 Simple grafana [dashboard](https://grafana.com/grafana/dashboards/11866)
 
 ## Prometheus (optional)
-Prometheus will serve metrics locally, or can send them to a remote endpoint in the cloud.  See [prom.yml](../blob/master/prom.yml)
+Prometheus will serve metrics locally, or can send them to a remote endpoint in the cloud.  See [prom.yml](../master/prom.yml)
 ```
 wget `curl -s https://api.github.com/repos/prometheus/prometheus/releases/latest | grep browser_download_url | perl -nle '/browser_download_url.*"(https.*linux-armv7.*.tar.gz)"/ and print $1'`
 tar xfz prometheus-*.linux-armv7.tar.gz
