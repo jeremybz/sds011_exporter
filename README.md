@@ -3,11 +3,6 @@ Prometheus exporter for the widely-available [sds011](http://inovafitness.com/en
 
 # Compiling
 ```
-go get golang.org/x/sys/unix
-go get github.com/ryszard/sds011/go/sds011
-go get github.com/prometheus/client_golang/prometheus
-go get github.com/prometheus/client_golang/prometheus/promhttp
-
 env GOOS=linux GOARCH=arm GOARM=5 go build
 ```
 
